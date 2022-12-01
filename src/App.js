@@ -12,13 +12,17 @@ function Demo(){
    )
 }
 export default Demo*/
-import PropsExample from "./PropsExample"
-function Demo(){
+//import FunctionPropExample from './FunctionPropExample'
+import StateExample from "./StateExample"
+function App(){
   return(
     <div>
     <h1>This is about props example</h1>
-    <PropsExample name="chinni" age="20"/>
+    {/*PropsExample name="chinni" age="20"/>
+    {PropsExample name="nani" age="22"/>          
+    <FunctionPropsExample framework="react"mumber="23"/>*/} 
+    <StateExample/>
     </div>
     )
 }
-export default Demo
+export default App
