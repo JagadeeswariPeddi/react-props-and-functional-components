@@ -1,4 +1,13 @@
-/*import ClassComponent from "./ClassComponent"
+import Events from "./Events"
+function App(){
+  return(
+     <div>
+     <Events/>
+     </div>
+    )
+}
+export default App
+  /*import ClassComponent from "./ClassComponent"
 import ClassComponent1 from "./ClassComponent1"
 function Demo(){
   return(
@@ -12,17 +21,18 @@ function Demo(){
    )
 }
 export default Demo*/
-//import FunctionPropExample from './FunctionPropExample'
-import StateExample from "./StateExample"
+//import FunctionPropExample from './FunctionPropExample'{
+/*import StateExample from "./StateExample"
 function App(){
   return(
     <div>
     <h1>This is about props example</h1>
     {/*PropsExample name="chinni" age="20"/>
     {PropsExample name="nani" age="22"/>          
-    <FunctionPropsExample framework="react"mumber="23"/>*/} 
-    <StateExample/>
+    <FunctionPropsExample framework="react"mumber="23"/>*/
+/*<StateExample/>
     </div>
     )
 }
-export default App
+export default App*/
+
